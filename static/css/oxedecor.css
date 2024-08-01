@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+ 
     background-color: #f8f8f8;
 }
 
@@ -17,14 +17,24 @@ nav a {
     text-decoration: none;
 }
 .logo{
-    margin: 0;
-    height: 18px;
+    height: 100px;
+    margin-right: 350px;
+}
+.car{
+    height: 40px;
+    margin-left: 100px;
 }
 .hero {
-    background: url('') no-repeat center center/cover;
+    background-image: url('../bandejas.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     color: white;
     padding: 100px 20px;
     text-align: center;
+}
+h2, h3{
+    color:#d5a098;
 }
 
 .products, .about {
@@ -46,10 +56,43 @@ nav a {
     width: 200px;
     text-align: center;
 }
-
+.product-item:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
 .product-item img {
     max-width: 100%;
 }
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: #d5a098;
+    background-size: cover;
+}
+
+.about-img {
+    width: 50%;
+    max-width: 300px;
+    margin-left: 20px; 
+}
+
+.about-text {
+    width: 60%;
+    text-align: left;
+    margin-right: 20px;
+    color: white;
+}
+
+.about a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color:white;
+}
+
 
 footer {
     background-color: #d5a098;
