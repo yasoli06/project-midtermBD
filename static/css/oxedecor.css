@@ -6,23 +6,22 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
+    background-color:white;
+    padding: 40px 0;
     text-align: center;
 }
 
 nav a {
-    color: white;
+    color: #d5a098;
     margin: 0 15px;
     text-decoration: none;
 }
-.test{
-    font-size:100px;
-    color: aquamarine;
+.logo{
+    margin: 0;
+    height: 18px;
 }
 .hero {
-    background: url('hero.jpg') no-repeat center center/cover;
+    background: url('') no-repeat center center/cover;
     color: white;
     padding: 100px 20px;
     text-align: center;
@@ -53,7 +52,7 @@ nav a {
 }
 
 footer {
-    background-color: #333;
+    background-color: #d5a098;
     color: white;
     padding: 10px 0;
     text-align: center;
